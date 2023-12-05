@@ -1,0 +1,16 @@
+[package]
+name = "croner-scheduler"
+version = "0.0.10"
+edition = "2021"
+license = "MIT"
+description = "A threaded cron job scheduler library for Rust"
+repository = "https://github.com/hexagon/croner-scheduler-rust"
+documentation = "https://docs.rs/croner-scheduler"
+readme = "README.md"
+keywords = ["cron", "scheduler", "job", "task", "time"]
+categories = ["date-and-time", "scheduling"]
+homepage = "https://github.com/hexagon/croner-scheduler-rust"
+
+[dependencies]
+chrono = "0.4"
+croner = "1.0.4"
