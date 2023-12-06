@@ -21,13 +21,13 @@ Ensure you have Rust installed on your machine. If not, you can get it from [the
 
 ### Installation
 
-Add `croner-scheduler` to your `Cargo.toml` dependencies:
-
-**Please note that croner for Rust is work in progress and not production-ready**
+Add `croner-scheduler`, `croner` and `chrono` to your `Cargo.toml` dependencies:
 
 ```toml
 [dependencies]
-croner-scheduler = "0.0.10" # Adjust the version as necessary
+croner-scheduler = "0.0.10"
+croner = "1.0.4"
+chrono = "0.4"
 ```
 
 ### Usage
