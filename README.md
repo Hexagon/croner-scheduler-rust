@@ -27,7 +27,7 @@ Add `croner-scheduler`, `croner` and `chrono` to your `Cargo.toml` dependencies:
 [dependencies]
 croner-scheduler = "0.0.10"
 croner = "1.0.4"
-chrono = "0.4"
+chrono = "0.4.31"
 ```
 
 ### Usage
