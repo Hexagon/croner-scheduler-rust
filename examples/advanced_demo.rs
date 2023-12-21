@@ -12,7 +12,10 @@ struct Params {
 
 fn main() {
     // Schedule one task at even seconds
-    let cron_1: Cron = "0/2 * 21 * * *".parse().expect("Invalid cron expression");
+    let cron_1 = Cron::new("0/2 * * * * *")
+        .with_seconds_optional()
+        .parse()
+        .expect("Invalid cron expression");
     let mut scheduler_1 = CronScheduler::new(cron_1).with_threadpool_size(5);
 
     // Define the context for the first scheduler
